@@ -1,0 +1,45 @@
+<footer class="footer-footer">
+  <div class="footer-information">
+    <div class="footer-content">
+      <div class="footer-header">
+        <app-branding></app-branding>
+        <p class="footer-text">{{ text }}</p>
+      </div>
+      <div class="footer-contact-list">
+        <div class="footer-contact">
+          <img
+            [attr.alt]="image_alt"
+            [attr.src]="image_src"
+            class="footer-image"
+          />
+          <span class="footer-text01">{{ text1 }}</span>
+        </div>
+        <div class="footer-contact1">
+          <img
+            [attr.alt]="image_alt1"
+            [attr.src]="image_src1"
+            class="footer-image1"
+          />
+          <span class="footer-text02">{{ text2 }}</span>
+        </div>
+      </div>
+    </div>
+    <span class="footer-copyright">{{ Copyright }}</span>
+  </div>
+  <div class="footer-links">
+    <div class="footer-column">
+      <span class="link">{{ Text }}</span>
+      <span class="link">{{ Text1 }}</span>
+      <span class="link">{{ Text2 }}</span>
+      <span class="link">{{ Text3 }}</span>
+      <span class="link">{{ Text4 }}</span>
+      <span class="link">{{ Text5 }}</span>
+    </div>
+    <div class="footer-column1">
+      <span class="link">{{ Text6 }}</span>
+      <span class="link">{{ Text7 }}</span>
+      <span class="link">{{ Text8 }}</span>
+      <span class="link">{{ Text9 }}</span>
+    </div>
+  </div>
+</footer>
